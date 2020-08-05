@@ -1,0 +1,31 @@
+@media (max-width: 575.98px) {
+  .mobile {
+    display: none;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 0.5rem;
+  min-height: 3rem;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+.notfound {
+  position: relative;
+  height: 100vh;
+}
+
+.notfound .notfound-items {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+  padding: 2rem 0 2rem 0;
+  background-color: #dee2e6;
+  border: 2px dashed #000;
+}
